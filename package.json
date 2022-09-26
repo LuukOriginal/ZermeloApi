@@ -1,0 +1,15 @@
+{
+  "name": "zermeloapi",
+  "version": "1.0.0",
+  "description": "An api wrapper for Zermelo written in TypeScript",
+  "main": "test/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LuukOriginal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "typescript": "^4.8.3"
+  }
+}
