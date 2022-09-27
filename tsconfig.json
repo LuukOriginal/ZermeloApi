@@ -1,12 +1,14 @@
 {
     "compilerOptions": {
       "target": "es6",
-      "module": "es2015",
-      "outDir": "./public",
+      "module": "CommonJS",
+      "outDir": "./build",
       "rootDir": "./src",
       "strict": true,
       "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true
+      "forceConsistentCasingInFileNames": true,
+      "removeComments": true
     },
-    "include": ["src"]
+    "include": ["src"],
+    "exclude": ["node_modules", "test"],
   }
