@@ -1,0 +1,1 @@
+An api wrapper for Zermelo written in TypeScript

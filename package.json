@@ -1,13 +1,17 @@
 {
-  "name": "zermeloapi",
+  "name": "zermelo-api-ts",
   "version": "1.0.0",
   "description": "An api wrapper for Zermelo written in TypeScript",
-  "main": "test/index.js",
-  "module": "commonjs",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --build",
+    "compile": "tsc -p .",
     "clean": "tsc --build --clean"
   },
+  "main": "dist/index",
   "author": "LuukOriginal",
   "license": "ISC",
   "dependencies": {
@@ -16,5 +20,6 @@
   },
   "devDependencies": {
     "@types/node-fetch": "^2.6.2"
-  }
+  },
+  "repository": "https://github.com/LuukOriginal/ZermeloApi.git"
 }
