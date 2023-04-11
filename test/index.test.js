@@ -1,8 +1,8 @@
-const {Zermelo} = require("../dist")
+const {Zermelo} = require("../dist");
 
 (async () => {
     const accessToken = await Zermelo.getAccessToken("schoolname", "auth code here");
-    const Api = new Zermelo("schoolname", accessToken)
+    const Api = new Zermelo("schoolname", accessToken);
 
     const Users = await Api.Users.get()
     console.log(`Hello ${Users.firstName} ${Users.prefix} ${Users.lastName}!`)
