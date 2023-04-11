@@ -1,6 +1,6 @@
 {
   "name": "zermelo-api-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An api wrapper for Zermelo written in TypeScript",
   "files": [
     "dist"
